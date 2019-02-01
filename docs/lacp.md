@@ -75,6 +75,6 @@ interface GigabitEthernet2/0/2
  switchport mode access
  channel-group 1 mode active
 ```
-## Добавим порты в портгруппу
+## Включение порта в портгруппу
 
 `channel-group 1 mode active`
