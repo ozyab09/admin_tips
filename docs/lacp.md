@@ -71,8 +71,8 @@ interface GigabitEthernet2/0/2
  description portname2
  switchport access vlan XXX
  switchport mode access
- channel-group 11 mode active
+ channel-group 1 mode active
 ```
 ## Добавим порты в портгруппу
 
-`channel-group 13 mode active`
+`channel-group 1 mode active`
