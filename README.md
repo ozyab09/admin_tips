@@ -4,4 +4,4 @@ Admin Tips
 
 ## Centos
 
-[LACP](docs/lacp.yml)
+[LACP](docs/lacp.md)
