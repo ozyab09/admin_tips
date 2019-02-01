@@ -1,4 +1,4 @@
-# Настройка LACP на cenos + cisco
+# Настройка LACP на CentOS + Cisco
 
 
 
@@ -47,7 +47,7 @@ MASTER=bond1
 
 После этого необходимо сделать перезапуск сети: `service network restart`
 
-# Настройка Centos
+# Настройка CentOS
 
 ## создадим портгруппу 
 
