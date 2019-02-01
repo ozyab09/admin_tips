@@ -43,13 +43,15 @@ USERCTL=no
 NM_CONTROLLED=no
 MASTER=bond1
 ```
-Аналогичным будет конфиг интерфейса en1.
+Аналогичным будет конфиг интерфейса `en1`.
 
 После этого необходимо сделать перезапуск сети: `service network restart`
 
-# Настройка CentOS
+# Настройка Cisco
 
-## создадим портгруппу 
+Действия необходимо выполнять в режиме конигурации: `conf t`
+
+## Создадим портгруппу 
 
 ```yml
 interface Port-channel1
@@ -57,7 +59,7 @@ interface Port-channel1
  switchport access vlan XXXX
  switchport mode access
 ```
-## изменим первый интерфейс:
+## Изменим первый интерфейс:
 ```yml
 interface GigabitEthernet1/0/2
  switchport access vlan XXX
@@ -65,7 +67,7 @@ interface GigabitEthernet1/0/2
  switchport mode access
  channel-group 1 mode active
 ```
-## второй интерфейс
+## Второй интерфейс
 ```yml
 interface GigabitEthernet2/0/2
  description portname2
