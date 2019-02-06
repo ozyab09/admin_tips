@@ -1,3 +1,6 @@
+# Скачать letsencrypt-auto-source
+Тут: https://github.com/certbot/certbot/tree/master/letsencrypt-auto-source
+
 # Создать сертификат
 `./letsencrypt-auto `
 
