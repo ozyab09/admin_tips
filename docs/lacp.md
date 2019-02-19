@@ -1,7 +1,6 @@
 # Настройка LACP на CentOS + Cisco
 
 
-
 # Настройка CentOS
 * Проверим наличие bonding модуля: `lsmod |grep -i bonding`
 
@@ -16,7 +15,7 @@ TYPE=Ethernet
 ONBOOT=yes
 USERCTL=no
 NM_CONTROLLED=no
-MTU=9000
+MTU=1500
 BOOTPROTO=static
 IPADDR=179.254.0.2
 PREFIX=16
