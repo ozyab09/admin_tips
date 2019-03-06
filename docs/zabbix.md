@@ -41,6 +41,7 @@
 Используйте данные из истории:
 
 Производительность: {server:system.cpu.load.min(10m)} > 5
+
 Доступность:
 ```
 {server:net.tcp.service[http].max(5m)} = 0
@@ -56,6 +57,7 @@
 ![HTTP availible](images/img-zabbix-05.png)
 
 Ранее: `{server:system.cpu.load.last()} > 5`
+
 Теперь: 
 ```
 Выражение проблемы: {server:system.cpu.load.last()}>5
